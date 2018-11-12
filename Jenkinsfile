@@ -1,2 +1,2 @@
-println $env.BRANCH_NAME
-println $env.BRANCH_NAME.tokenize("/")[0]
+println ${BRANCH_NAME}
+println ${BRANCH_NAME}.tokenize("/")[0]
